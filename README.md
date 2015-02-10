@@ -1,4 +1,5 @@
-Nivo Lightbox
+fork for Nivo Lightbox
 =============
 
-A simple, flexible, responsive, retina-ready jQuery lightbox plugin. See http://dev7studios.com/nivo-lightbox for more info.
+- Added autoplay and no ads for youtube video
+- Changed grouping tag from data-lightbox-type to onclick - so it would be easy to set up gallery from joomla! editor (link manager)

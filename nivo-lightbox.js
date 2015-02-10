@@ -88,8 +88,8 @@
 			this.processContent( content, currentLink );
 
             // Nav
-            if(this.$el.attr('data-lightbox-gallery')){
-                var galleryItems = $('[data-lightbox-gallery="'+ this.$el.attr('data-lightbox-gallery') +'"]');
+            if(this.$el.attr('onclick')){
+                var galleryItems = $('[onclick="'+ this.$el.attr('onclick') +'"]');
 
                 $('.nivo-lightbox-nav').show();
 
@@ -194,11 +194,11 @@
                     classTerm = 'nivo-lightbox-video';
 
                 if(video[1] == 'youtube'){
-                    src = 'http://www.youtube.com/embed/'+ video[4];
+                    src = 'http://www.youtube.com/embed/'+ video[4]+'&rel=0&autoplay=1';
                     classTerm = 'nivo-lightbox-youtube';
                 }
                 if(video[1] == 'youtu'){
-                    src = 'http://www.youtube.com/embed/'+ video[3];
+                    src = 'http://www.youtube.com/embed/'+ video[3]+'&rel=0&autoplay=1';
                     classTerm = 'nivo-lightbox-youtube';
                 }
                 if(video[1] == 'vimeo'){

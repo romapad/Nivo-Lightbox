@@ -194,11 +194,11 @@
                     classTerm = 'nivo-lightbox-video';
 
                 if(video[1] == 'youtube'){
-                    src = 'http://www.youtube.com/embed/'+ video[4]+'&rel=0&autoplay=1';
+                    src = 'http://www.youtube.com/embed/'+ video[4]+'?rel=0&autoplay=1';
                     classTerm = 'nivo-lightbox-youtube';
                 }
                 if(video[1] == 'youtu'){
-                    src = 'http://www.youtube.com/embed/'+ video[3]+'&rel=0&autoplay=1';
+                    src = 'http://www.youtube.com/embed/'+ video[3]+'?rel=0&autoplay=1';
                     classTerm = 'nivo-lightbox-youtube';
                 }
                 if(video[1] == 'vimeo'){
